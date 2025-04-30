@@ -33,6 +33,11 @@
     python contador.py
     ```
 
+4. Compilar la aplicación:
+    ```bash
+    pyinstaller --onefile --add-data "icon_exe.ico;." --icon="icon_exe.ico"  Contador.py
+    ```
+
 ## Uso
 
 1. **Incrementar/Decrementar Valores**:
